@@ -1,0 +1,46 @@
+
+//Это компонент кнопки
+
+.btn
+    &, &:link, &:visited
+        @include style-link($color-gray)
+        padding: 1.5rem 4rem
+        background: $color-white
+        border-radius: 5rem
+        transition: all .3s
+        position: relative
+        font-size: 2rem
+        border: none
+        
+    &:hover
+        transform: translateY(-0.4rem)
+        box-shadow: $box-shadow
+        &::after
+            opacity: 0
+            transform: scaleX(1.5) scaleY(1.7)
+    &:active
+        transform: translateY(-0.2rem)
+        box-shadow: $box-shadow
+    &::after
+        content: ""
+        background: $color-white
+        width: 100%
+        height: 100%
+        border-radius: 5rem
+        display: inline-block
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -1
+        transition: all .4s
+    &_animated
+        animation: BtnToUp 1.1s ease-out .7s
+        animation-fill-mode: backwards
+
+.btn_brown
+    &, &:link, &:visited
+        background: $color-brown-dark
+        color: $color-white
+    &:hover
+    &::after
+        background: $color-brown-dark
