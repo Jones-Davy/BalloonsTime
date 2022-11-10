@@ -115,6 +115,12 @@ body {
   background-color: #ffffff;
 }
 
+@media only screen and (max-width: 1240px) {
+  body {
+    padding: 3rem;
+  }
+}
+
 .container {
   background-color: #F7F7F7;
   position: relative;
