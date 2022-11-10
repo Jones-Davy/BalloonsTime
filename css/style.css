@@ -715,7 +715,7 @@ body {
 }
 @media only screen and (max-width: 1240px) {
   .form__group {
-    margin-top: 2rem;
+    margin-top: .8rem;
   }
   .form__group:not(:last-child) {
     margin-bottom: 0;
