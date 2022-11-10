@@ -458,7 +458,6 @@ body {
   }
 }
 .card-tour__side_back {
-  background: green;
   transform: rotateY(180deg);
   background: linear-gradient(120deg, #BA8554, #A14F03);
 }
@@ -618,7 +617,6 @@ body {
 .feedBack-card__img {
   width: 15rem;
   height: 15rem;
-  background: green;
   float: left;
   border-radius: 100rem;
   shape-outside: circle(50% at 50% 50%);
