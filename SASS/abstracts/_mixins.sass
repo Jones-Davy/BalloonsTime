@@ -33,6 +33,10 @@
     @if $breakpoint == tab-port
         @media only screen and (max-width: 900px)
             @content
+            
+     @if $breakpoint == tab-940
+        @media only screen and (max-width: 940px)
+            @content
     
     @if $breakpoint == tab-land
         @media only screen and (max-width: 1240px)
