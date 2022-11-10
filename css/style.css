@@ -357,6 +357,7 @@ body {
   border-bottom: 1px #BA8554 solid;
   display: inline-block;
   transition: 0.5 all;
+  border-radius: 5rem;
 }
 .btn-text:hover {
   background-color: #BA8554;
@@ -457,7 +458,7 @@ body {
   }
 }
 .card-tour__side_back {
-  background: rgba(0, 0, 0, 0);
+  background: green;
   transform: rotateY(180deg);
   background: linear-gradient(120deg, #BA8554, #A14F03);
 }
@@ -617,7 +618,7 @@ body {
 .feedBack-card__img {
   width: 15rem;
   height: 15rem;
-  background: black;
+  background: green;
   float: left;
   border-radius: 100rem;
   shape-outside: circle(50% at 50% 50%);
