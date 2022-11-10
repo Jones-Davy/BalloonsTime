@@ -87,6 +87,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 1240px) {
   html {
@@ -458,6 +459,7 @@ body {
   }
 }
 .card-tour__side_back {
+  background: green;
   transform: rotateY(180deg);
   background: linear-gradient(120deg, #BA8554, #A14F03);
 }
@@ -712,6 +714,9 @@ body {
   margin-bottom: 4rem;
 }
 @media only screen and (max-width: 1240px) {
+  .form__group {
+    margin-top: 2rem;
+  }
   .form__group:not(:last-child) {
     margin-bottom: 0;
   }
