@@ -839,6 +839,11 @@ body {
 }
 @media only screen and (max-width: 1240px) {
   .row {
+    max-width: 93.1rem;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .row {
     max-width: 90.1rem;
   }
 }
